@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/product_management" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="@string/order_management" />
+        <item
+            android:id="@+id/nav_customers"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/customer_management" />
+        <item
+            android:id="@+id/nav_payments"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/payment_management" />
+        <item
+            android:id="@+id/nav_reviews"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="@string/review_management" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/reports" />
+    </group>
+    <item android:title="Hệ thống">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_menu_close_clear_cancel"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+</menu>
+

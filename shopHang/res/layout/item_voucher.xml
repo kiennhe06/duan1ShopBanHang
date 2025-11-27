@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/cart_card">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvVoucherCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SALE50"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cart_primary" />
+
+                <TextView
+                    android:id="@+id/tvVoucherName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mã giảm giá"
+                    android:textSize="12sp"
+                    android:textColor="@color/cart_text_secondary"
+                    android:layout_marginTop="2dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="end">
+
+                <TextView
+                    android:id="@+id/tvDiscountValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50%"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cart_primary" />
+
+                <TextView
+                    android:id="@+id/tvMinOrder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đơn tối thiểu: 100.000₫"
+                    android:textSize="10sp"
+                    android:textColor="@color/cart_text_secondary"
+                    android:layout_marginTop="2dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvVoucherDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mô tả voucher"
+            android:textSize="11sp"
+            android:textColor="@color/cart_text_secondary"
+            android:layout_marginTop="6dp"
+            android:maxLines="2"
+            android:ellipsize="end" />
+
+        <!-- Thời gian hiệu lực -->
+        <TextView
+            android:id="@+id/tvVoucherTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⏰ 01/01/2025 - 31/12/2025"
+            android:textSize="10sp"
+            android:textColor="@color/cart_text_secondary"
+            android:layout_marginTop="4dp"
+            android:visibility="gone" />
+
+        <!-- Số lượt còn lại -->
+        <TextView
+            android:id="@+id/tvUsageInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📊 Còn lại: 5/10"
+            android:textSize="10sp"
+            android:textColor="@color/cart_text_secondary"
+            android:layout_marginTop="2dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

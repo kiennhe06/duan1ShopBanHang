@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Shop Hàng</string>
+    
+    <!-- Customer -->
+    <string name="login">Đăng nhập</string>
+    <string name="register">Đăng ký</string>
+    <string name="username">Tên đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="email">Email</string>
+    <string name="home">Trang chủ</string>
+    <string name="cart">Giỏ hàng</string>
+    <string name="orders">Đơn hàng</string>
+    <string name="account">Tài khoản</string>
+    <string name="search_products">Tìm kiếm sản phẩm...</string>
+    <string name="featured_products">Sản phẩm nổi bật</string>
+    <string name="new_products">Sản phẩm mới</string>
+    <string name="categories">Danh mục</string>
+    <string name="view_all">Xem tất cả</string>
+    <string name="add_to_cart">Thêm vào giỏ</string>
+    <string name="your_cart">Giỏ hàng của bạn</string>
+    <string name="temporary_total">Tổng tiền tạm tính</string>
+    <string name="proceed_to_checkout">Tiến hành Thanh toán</string>
+    <string name="checkout">Thanh toán</string>
+    <string name="name">Tên</string>
+    <string name="phone">Số điện thoại</string>
+    <string name="address">Địa chỉ</string>
+    <string name="total">Tổng tiền</string>
+    <string name="place_order">Đặt hàng</string>
+    <string name="my_orders">Đơn hàng của tôi</string>
+    <string name="logout">Đăng xuất</string>
+    
+    <!-- Admin -->
+    <string name="admin_login">Đăng nhập Admin</string>
+    <string name="dashboard">Bảng điều khiển</string>
+    <string name="product_management">Quản lý sản phẩm</string>
+    <string name="order_management">Quản lý đơn hàng</string>
+    <string name="customer_management">Quản lý khách hàng</string>
+    <string name="payment_management">Quản lý thanh toán</string>
+    <string name="review_management">Quản lý đánh giá</string>
+    <string name="reports">Báo cáo</string>
+    <string name="add_product">Thêm sản phẩm</string>
+    <string name="edit_product">Sửa sản phẩm</string>
+    <string name="delete">Xóa</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="category">Danh mục</string>
+    <string name="price">Giá</string>
+    <string name="stock">Tồn kho</string>
+    <string name="description">Mô tả</string>
+    <string name="status">Trạng thái</string>
+    <string name="quantity">Số lượng</string>
+    <string name="pending">Chờ xử lý</string>
+    <string name="paid">Đã thanh toán</string>
+    <string name="shipped">Đã giao hàng</string>
+    <string name="cancelled">Đã hủy</string>
+    
+    <!-- Common -->
+    <string name="loading">Đang tải...</string>
+    <string name="error">Lỗi</string>
+    <string name="success">Thành công</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="edit">Sửa</string>
+    <string name="add">Thêm</string>
+    <string name="method">Phương thức</string>
+    <string name="amount">Số tiền</string>
+    <string name="rating">Đánh giá</string>
+    <string name="comment">Bình luận</string>
+    <string name="revenue">Doanh thu</string>
+    <string name="today">Hôm nay</string>
+    <string name="this_month">Tháng này</string>
+    <string name="bestsellers">Sản phẩm bán chạy</string>
+    <string name="low_stock">Tồn kho thấp</string>
+    <string name="product_image">Hình ảnh sản phẩm</string>
+    <string name="empty_cart_message">Giỏ hàng của bạn đang trống. Hãy thêm sản phẩm để bắt đầu mua sắm!</string>
+    <string name="empty_orders_message">Bạn chưa có đơn hàng nào. Hãy bắt đầu mua sắm ngay!</string>
+    <string name="empty_products_message">Không tìm thấy sản phẩm nào. Thử tìm kiếm với từ khóa khác.</string>
+</resources>
+
